@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html">Luke Coulon</a>
+        <nav aria-label="Navigation principale">
+          <a href="index.html" data-i18n="backHome">Accueil</a>
+          <a href="https://github.com/LukeClnpro" target="_blank" rel="noreferrer" data-i18n="navGithub">GitHub</a>
+        </nav>
+        <div class="lang-switch" aria-label="Language switcher">
+          <button type="button" class="lang-button" data-lang-switch="fr" aria-label="Français">FR</button>
+          <button type="button" class="lang-button" data-lang-switch="en" aria-label="English">EN</button>
+        </div>
+      </div>
+    </header>
+    
+    <main class="project-page">
+      <div class="container detail-shell">
+        <a class="back-link" href="index.html">← Retour aux projets</a>
+        <article id="project-detail" class="project-detail" aria-live="polite"></article>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/project-detail.js"></script>
+  </body>
+</html>
